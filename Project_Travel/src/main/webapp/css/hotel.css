@@ -1,0 +1,364 @@
+* {
+    text-decoration: none;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+img {
+    border: 0;
+    margin: 0;
+}
+
+#page {
+    /*    margin: 0%;*/
+    width: 1300px;
+    height: 100%;
+}
+
+
+/*.heady {
+    background-color: brown;
+    margin: auto;*/
+
+
+/* header의 양쪽 여백(margin)을 동등하게 맞춤 -> 수평가운데정렬 */
+
+
+/* width: 77%;
+    height: 155px;
+    display: flex;
+    align-items: center;
+    /* 하위 요소들 수직 가운데정렬 */
+
+
+/*  position: relative;
+}
+*/
+
+
+/*.heady {
+    width: 77%;
+    height: 200px;
+    background-color: chartreuse;
+}*/
+
+.first {
+    width: 100%;
+    height: 1500px;
+}
+
+.second {
+    width: 100%;
+    height: 570px;
+    display: flex;
+    overflow: hidden;
+}
+
+.third {
+    width: 100%;
+    height: 1400px;
+}
+
+#slider {
+    padding: 100px opx;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+}
+
+.blocks {
+    width: 100%;
+    height: 300px;
+    padding-top: 4%;
+    background-color: black;
+    display: flex;
+    padding-bottom: 5%;
+}
+
+.block {
+    width: 30%;
+    height: 200px;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: skyblue;
+}
+
+.foot {}
+
+
+/* 슬라이더 코드*/
+
+.slidercontainer {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+}
+
+.album {
+    height: 100%;
+    width: 100%;
+}
+
+.stay {
+    position: relative;
+    display: flex;
+    /*height: 100%;*/
+    /*    background-size: cover;*/
+    /*    background-position: center;*/
+}
+
+.stay>img {
+    width: 100%;
+    height: 100%;
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    /*    background-repeat: no-repeat;*/
+}
+
+button,
+button:active,
+button:focus {
+    width: 50px;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: rgb(108, 246, 246);
+    outline: none;
+}
+
+button:hover {
+    background-color: rgb(38, 90, 248);
+}
+
+button:disabled {
+    background-color: rgb(208, 215, 211);
+}
+
+.prev {
+    float: left;
+    position: absolute;
+    top: 23%;
+    left: 1;
+}
+
+.next {
+    float: right;
+    position: absolute;
+    top: 23%;
+    right: 1;
+}
+
+
+/*슬라이더 코드 끝*/
+
+.pic1 {
+    background-image: url("../images/호텔1.JPG");
+    background-size: cover;
+}
+
+.pic1:hover {
+    transform: scale(1.5);
+    /* 이미지 확대 */
+    transition: transform .5s;
+    /*  시간 설정  */
+}
+
+.pic2 {
+    background-image: url("../images/호텔4.JPG");
+    background-size: cover;
+}
+
+.pic2:hover {
+    transform: scale(1.5);
+    /* 이미지 확대 */
+    transition: transform .5s;
+    /*  시간 설정  */
+}
+
+.pic3 {
+    background-image: url("../images/호텔들2.jpg");
+    background-size: cover;
+}
+
+.pic3:hover {
+    transform: scale(1.5);
+    /* 이미지 확대 */
+    transition: transform .5s;
+    /*  시간 설정  */
+}
+
+.pic4 {
+    background-image: url("../images/호텔들4.jpg");
+    background-size: cover;
+}
+
+.pic4:hover {
+    transform: scale(1.5);
+    /* 이미지 확대 */
+    transition: transform .5s;
+    /*  시간 설정  */
+}
+
+.pic5 {
+    background-image: url("../images/호텔들5.jpg");
+    background-size: cover;
+}
+
+.pic5:hover {
+    transform: scale(1.5);
+    /* 이미지 확대 */
+    transition: transform .5s;
+    /*  시간 설정  */
+}
+
+.pic6 {
+    background-image: url("../images/호텔들6.jpg");
+    background-size: cover;
+}
+
+.pic6:hover {
+    transform: scale(1.5);
+    /* 이미지 확대 */
+    transition: transform .5s;
+    /*  시간 설정  */
+}
+
+.pic7 {
+    background-image: url("../images/호텔들6.jpg");
+    background-size: cover;
+}
+
+.pic7:hover {
+    transform: scale(1.5);
+    /* 이미지 확대 */
+    transition: transform .5s;
+    /*  시간 설정  */
+}
+
+.pic8 {
+    background-image: url("../images/호텔1.JPG");
+    background-size: cover;
+}
+
+.pic8:hover {
+    transform: scale(1.5);
+    /* 이미지 확대 */
+    transition: transform .5s;
+    /*  시간 설정  */
+}
+
+.pic9 {
+    background-image: url("../images/호텔들9.jpg");
+    background-size: cover;
+}
+
+.pic9:hover {
+    transform: scale(1.5);
+    /* 이미지 확대 */
+    transition: transform .5s;
+    /*  시간 설정  */
+}
+
+.baby {
+    z-index: -100;
+    font-size: 1px;
+}
+
+.baby:hover {
+    font-size: 20px;
+}
+
+.title1 {
+    position: absolute;
+    margin-top: 100px;
+    top: 100px;
+    z-index: 2;
+    left: 700px;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+
+.recomand {
+    font-family: 'Rubik Moonrocks', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: azure;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: -10px;
+}
+
+.thelast {
+    height: 420px;
+    width: 100%;
+    position: relative;
+}
+
+.beforelast {
+    width: 10%;
+    position: absolute;
+    left: 300px;
+}
+
+.beforelast>p {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+.pp {
+    position: absolute;
+    left: 500px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+}
+
+.lego {
+    position: absolute;
+    top: 120px;
+    left: -200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 360px;
+    height: 90px;
+    background-image: url(../image/logo.png);
+}
+
+.last {
+    right: 1;
+    position: absolute;
+    left: 600px;
+    width: 52%;
+    height: 420px;
+    background-color: aqua;
+    background-image: url("../images/떠나요행1.jpg");
+    background-size: cover;
+    padding: 0;
+}
+
+
+/*김유나님 올리신 위로올라가는자바스크립트 내꺼엔 이상하게적용되어 바꿈
+*/
+
+#moveToTopBox1 {
+    right: -70px;
+    width: 30px;
+    position: absolute;
+    top: -40px;
+    background-color: #292C31;
+}
+
+#moveToTopBox1 img {
+    bottom: 100px;
+}
