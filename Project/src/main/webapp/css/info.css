@@ -15,6 +15,10 @@
 	
 }
 
+#infoviewBox text{
+	position:absolute;
+}
+
 
 #slogun{margin-left:100px; top:50px;		
 				position:absolute; z-index:10;
