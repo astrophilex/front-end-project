@@ -24,3 +24,7 @@
 	width:200px; height: 100px;
 	display:none;
 }
+
+#infoviewBox text{
+	z-index:10;
+}
