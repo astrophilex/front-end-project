@@ -1,95 +1,102 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>떠나요행</title>
-		<link rel="stylesheet" type="text/css" href="css/common_travel.css" >
-		<link rel="stylesheet" type="text/css" href="css/index_travel.css">
-		<link rel="stylesheet" type="text/css" href="css/menu_travel.css">
-		<link rel="stylesheet" type="text/css" href="css/mapBox.css">
-		<link rel="stylesheet" type="text/css" href="css/galleryBox.css">
-		<link rel="stylesheet" type="text/css" href="css/slide_travel.css">
-		<link rel="stylesheet" type="text/css" href="css/slideshow_travel.css">
-		<link rel="stylesheet" type="text/css" href="css/content_travel.css">
-		<script src="js/jquery-3.6.0.min.js"></script>
-		<script src="js/jquery.rwdImageMaps.js"></script>
-		<script src="js/subMenu_travel.js"></script>
-		<script src="js/index_travel.js"></script>
-		<script src="js/galleryBox.js"></script>
-		<script src="js/map.js"></script>
-		<script src="js/slideshow_travel.js"></script>
-		<script type="text/javascript"></script>
-		
-	</head>
-	<body>
-		<div id="wrap">
-        	<header>
-        		<div id="headerBox">
-	            	<div id="logoBox"><a href="travel.html"><img src="image/logo.png" id="logoImg"></a></div>
-					<div id="topMenuBox">
-						<div id="signIn"><a href="#">회원가입</a></div><div id="login"><a href="#">로그인</a></div>
-					</div>
-            	</div>
-            </header>
-            <nav>            
-            	<div id="mainMenuBox">
-            		<ul id="menuItem">
-						<li><a href="#" class="menuItem">커뮤니티</a></li>
-						<li><a href="#" class="menuItem">여행지</a></li>
-						<li><a href="#" class="menuItem">여행정보</a></li>
-						<li><a href="#" class="menuItem">추천</a></li>
-						<li><a href="#" class="menuItem">고객센터 </a></li>
-					</ul>
-            	</div>
-                <div id="subMenuBox">
-                	<div class="subMenuItem" id="subMenuItem1">
-						<ul>
-							<li><a href="#">Q&A</a></li>
-							<li><a href="#">여행리뷰</a></li>
-							<li><a href="#">설문조사</a></li>
-							<li><a href="#">갤러리</a></li>
-						</ul>
-					</div>
-					<div class="subMenuItem" id="subMenuItem2">
-						<ul>
-							<li><a href="#">명소</a></li>
-							<li><a href="#">엔터테인먼트</a></li>
-							<li><a href="#">쇼핑</a></li>
-							<li><a href="#">게스트하우스</a></li>
-						</ul>
-					</div>
-					<div class="subMenuItem" id="subMenuItem3">
-						<ul>
-							<li><a href="#">가이드북</a></li>
-							<li><a href="#">오늘의 날씨</a></li>
-							<li><a href="#">투어버스</a></li>
-							<li><a href="#">여행자 지원</a></li>
-						</ul>
-					</div>
-					<div class="subMenuItem" id="subMenuItem4">
-						<ul>
-							<li><a href="#">테마코스</a></li>
-							<li><a href="#">한류관광</a></li>
-							<li><a href="#">해설관광</a></li>
-							<li><a href="#">등산관광</a></li>
-						</ul>
-					</div>
-					<div class="subMenuItem" id="subMenuItem5">
-						<ul>
-							<li><a href="#">FAQ</a></li>
-							<li><a href="#">신고센터</a></li>
-							<li><a href="#">보안서비스</a></li>
-							<li><a href="#">클라이언트</a></li>
-						</ul>
-					</div>
-                </div>     <!-- subMenuBox 끝 -->           
-            </nav>             
-            <section>
-            	<article  id="map"> <!-- 지도 -->   
-           		<div>
-	            	<div id="mapBox">
-	            			<img class="map" name=mapMouse src="image/map01.png" usemap="#cityMap">
-								<map name="cityMap">
+
+<head>
+    <meta charset="UTF-8">
+    <title>떠나요행</title>
+    <link rel="stylesheet" type="text/css" href="css/common_travel.css">
+    <link rel="stylesheet" type="text/css" href="css/index_travel.css">
+    <link rel="stylesheet" type="text/css" href="css/menu_travel.css">
+    <link rel="stylesheet" type="text/css" href="css/mapBox.css">
+    <link rel="stylesheet" type="text/css" href="css/galleryBox.css">
+    <link rel="stylesheet" type="text/css" href="css/slide_travel.css">
+    <link rel="stylesheet" type="text/css" href="css/slideshow_travel.css">
+    <link rel="stylesheet" type="text/css" href="css/content_travel.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.rwdImageMaps.js"></script>
+    <script src="js/subMenu_travel.js"></script>
+    <script src="js/index_travel.js"></script>
+    <script src="js/galleryBox.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/slideshow_travel.js"></script>
+    <script type="text/javascript"></script>
+
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <div id="headerBox">
+                <div id="logoBox">
+                    <a href="travel.html"><img src="image/logo.png" id="logoImg"></a>
+                </div>
+                <div id="topMenuBox">
+                    <div id="signIn"><a href="#">회원가입</a></div>
+                    <div id="login"><a href="#">로그인</a></div>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <div id="mainMenuBox">
+                <ul id="menuItem">
+                    <li><a href="#" class="menuItem">커뮤니티</a></li>
+                    <li><a href="#" class="menuItem">여행지</a></li>
+                    <li><a href="#" class="menuItem">여행정보</a></li>
+                    <li><a href="#" class="menuItem">추천</a></li>
+                    <li><a href="#" class="menuItem">고객센터 </a></li>
+                </ul>
+            </div>
+            <div id="subMenuBox">
+                <div class="subMenuItem" id="subMenuItem1">
+                    <ul>
+                        <li><a href="#">Q&A</a></li>
+                        <li><a href="#">여행리뷰</a></li>
+                        <li><a href="#">설문조사</a></li>
+                        <li><a href="#">갤러리</a></li>
+                    </ul>
+                </div>
+                <div class="subMenuItem" id="subMenuItem2">
+                    <ul>
+                        <li><a href="#">명소</a></li>
+                        <li><a href="#">엔터테인먼트</a></li>
+                        <li><a href="#">쇼핑</a></li>
+                        <li><a href="#">게스트하우스</a></li>
+                    </ul>
+                </div>
+                <div class="subMenuItem" id="subMenuItem3">
+                    <ul>
+                        <li><a href="#">가이드북</a></li>
+                        <li><a href="#">오늘의 날씨</a></li>
+                        <li><a href="#">투어버스</a></li>
+                        <li><a href="#">여행자 지원</a></li>
+                    </ul>
+                </div>
+                <div class="subMenuItem" id="subMenuItem4">
+                    <ul>
+                        <li><a href="#">테마코스</a></li>
+                        <li><a href="#">한류관광</a></li>
+                        <li><a href="#">해설관광</a></li>
+                        <li><a href="#">등산관광</a></li>
+                    </ul>
+                </div>
+                <div class="subMenuItem" id="subMenuItem5">
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">신고센터</a></li>
+                        <li><a href="#">보안서비스</a></li>
+                        <li><a href="#">클라이언트</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- subMenuBox 끝 -->
+        </nav>
+        <section>
+            <article id="map">
+                <!-- 지도 -->
+                <div>
+                    <div id="mapBox">
+                        <img class="map" name=mapMouse src="image/map01.png" usemap="#cityMap">
+                        <map name="cityMap">
 									<area shape="rect" coords="386, 645, 479, 690"  href="#" id="map_jeju">
 									<area shape="rect" coords="76, 513, 252, 665"  href="#" id="map_jeonrado">
 									<area shape="rect" coords="235, 46, 458, 238"  href="#" id="map_kangwondo">
@@ -99,143 +106,167 @@
 									<area shape="rect" coords="53, 272, 218, 337"  href="#" id="map_chungS">
 									<area shape="rect" coords="291, 290, 468, 455"  href="#" id="map_kyeongN">
 								</map>
-	            	</div>
-	            	<div id="mapmenu">
-	            		<ul>
-	            		<li><a href="#">관광지 소개</a></li>
-	            		<li><a href="#">맛집 소개</a></li>
-	            		<li><a href="#">지역의 축제</a></li>
-	            		<li><a href="#">호텔 추천</a></li>
-	            		</ul>
-            		</div>
-            		<div id="closeButton">
-            			<img id="close" src="image/xx.png" >
-            		</div>
-           		</div>
-                </article> 
-                <article id="gallery"> 
-                	<div id="galleryBox">
-                		<ul>
-	                		<li>
-	                			<a herf="#">
-	                				<div class="screen">
-	                					<div class="top">제주도의 유채꽃 축제</div>
-	                					<div class="bottom">자세히 보기</div>
-	                					<img src="image/flower.jpg"  id="img1">
-	                				</div>
-	                				<div>
-	                					<h3>제주도</h3>
-	                				</div>
-	                			</a>
-	                		</li>
-	                		<li>
-	                			<a herf="#">
-	                				<div class="screen">
-	                					<div class="top">순천의 불일암</div>
-	                					<div class="bottom">자세히 보기</div>
-	                					<img src="image/forest.jpg"  id="img2">
-	                				</div>
-	                				<div>
-	                					<h3>순천</h3>
-	                				</div>
-	                			</a>
-	                		</li>
-	                		<li>
-	                			<a herf="#">
-	                				<div class="screen">
-	                					<div class="top">전주의 한옥마을</div>
-	                					<div class="bottom">자세히 보기</div>
-	                					<img src="image/jeonju.jpg" id="img3">
-	                				</div>
-	                				<div>
-	                					<h3>전주</h3>
-	                				</div>
-	                			</a>
-	                		</li>
-                		</ul>
-                	</div>             
-                </article>
-                <article  id="gallery2"> <!--  -->    
-                	<!-- 이전/다음 버튼 -->
-                	<div id = "controlPanel">
-						<img src="image/controlButton1.png" class="controlButton">
-						<img src="image/controlButton1.png" class="controlButton">
-						<img src="image/controlButton1.png" class="controlButton">
-						<img src="image/controlButton1.png" class="controlButton">
-						<img src="image/controlButton1.png" class="controlButton">
-					</div>
-					<div id="prevNextButtonBox">
-						<img id="prevButton" src="image/left.png">
-						<img id="nextButton" src="image/right.png">
-					</div>   
-               		<div id="slideShowBox">
-						<div id="slidePanel">
-							<img src= "image/slide01.jpg" class="slideImage">
-							<img src= "image/slide02.jpg" class="slideImage">
-							<img src= "image/slide03.jpg" class="slideImage">
-							<img src= "image/slide04.jpg" class="slideImage">
-							<img src= "image/slide05.jpg" class="slideImage">
-						</div>
-					</div> <!-- slideShowBox 끝 -->
-		
-					<div id="text">
-						<img src="image/text1.png" class="textImg">
-					</div>
-                </article>
-                <article id="content">
-                	<div id="contentImg">
-                	<div id="contentText">
-                	<ul>
-                		<li id="instalogo"><a href="https://www.instagram.com/kto9suk9suk/"><img src="image/insta.png" class="instalogo" ></a></li>
-                		<li>kto9suk9suk</li>
-                	</ul>
-                	</div>
-                		<ul>
-                			<li id="content01"><a href="https://www.instagram.com/p/CfGaL0CMKzE/?utm_source=ig_web_copy_link"><img src="image/content1.jpg" class="contentImg" ></a></li>
-                			<li id="content02"><a href="https://www.instagram.com/p/Ce8G0vosXT9/?utm_source=ig_web_copy_link"><img src="image/content2.jpg" class="contentImg" ></a></li>
-                			<li id="content03"><a href="#"><img src="image/content3.jpg" class="contentImg" ></a></li>
-                			<li id="content04"><a href="#"><img src="image/content4.jpg" class="contentImg" ></a></li>
-                		</ul>
-                	</div>
-                	<div id="contentImg2">
-                		<ul>
-                			<li id="content05"><a href="#"><img src="image/content5.jpg" class="contentImg" ></a></li>
-                			<li id="content06"><a href="#"><img src="image/content6.jpg" class="contentImg" ></a></li>
-                			<li id="content07"><a href="#"><img src="image/content7.jpg" class="contentImg" ></a></li>
-                			<li id="content08"><a href="#"><img src="image/content8.jpg" class="contentImg" ></a></li>
-                		</ul>
-                	</div>
-                </article>
-            </section>
-             <footer>
+                    </div>
+                    <div id="mapmenu">
+                        <ul>
+                            <li><a href="#">관광지 소개</a></li>
+                            <li><a href="#">맛집 소개</a></li>
+                            <li><a href="#">지역의 축제</a></li>
+                            <li><a href="../webapp/hotel.html">호텔 추천</a></li>
+                        </ul>
+                    </div>
+                    <div id="closeButton">
+                        <img id="close" src="image/xx.png">
+                    </div>
+                </div>
+            </article>
+            <article id="gallery">
+                <div id="galleryBox">
+                    <ul>
+                        <li>
+                            <a herf="#">
+                                <div class="screen">
+                                    <div class="top">제주도의 유채꽃 축제</div>
+                                    <div class="bottom">자세히 보기</div>
+                                    <img src="image/flower.jpg" id="img1">
+                                </div>
+                                <div>
+                                    <h3>제주도</h3>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a herf="#">
+                                <div class="screen">
+                                    <div class="top">순천의 불일암</div>
+                                    <div class="bottom">자세히 보기</div>
+                                    <img src="image/forest.jpg" id="img2">
+                                </div>
+                                <div>
+                                    <h3>순천</h3>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a herf="#">
+                                <div class="screen">
+                                    <div class="top">전주의 한옥마을</div>
+                                    <div class="bottom">자세히 보기</div>
+                                    <img src="image/jeonju.jpg" id="img3">
+                                </div>
+                                <div>
+                                    <h3>전주</h3>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <article id="gallery2">
+                <!--  -->
+                <!-- 이전/다음 버튼 -->
+                <div id="controlPanel">
+                    <img src="image/controlButton1.png" class="controlButton">
+                    <img src="image/controlButton1.png" class="controlButton">
+                    <img src="image/controlButton1.png" class="controlButton">
+                    <img src="image/controlButton1.png" class="controlButton">
+                    <img src="image/controlButton1.png" class="controlButton">
+                </div>
+                <div id="prevNextButtonBox">
+                    <img id="prevButton" src="image/left.png">
+                    <img id="nextButton" src="image/right.png">
+                </div>
+                <div id="slideShowBox">
+                    <div id="slidePanel">
+                        <img src="image/slide01.jpg" class="slideImage">
+                        <img src="image/slide02.jpg" class="slideImage">
+                        <img src="image/slide03.jpg" class="slideImage">
+                        <img src="image/slide04.jpg" class="slideImage">
+                        <img src="image/slide05.jpg" class="slideImage">
+                    </div>
+                </div>
+                <!-- slideShowBox 끝 -->
+
+                <div id="text">
+                    <img src="image/text1.png" class="textImg">
+                </div>
+            </article>
+            <article id="content">
+                <div id="contentImg">
+                    <div id="contentText">
+                        <ul>
+                            <li id="instalogo">
+                                <a href="https://www.instagram.com/kto9suk9suk/"><img src="image/insta.png" class="instalogo"></a>
+                            </li>
+                            <li>kto9suk9suk</li>
+                        </ul>
+                    </div>
+                    <ul>
+                        <li id="content01">
+                            <a href="https://www.instagram.com/p/CfGaL0CMKzE/?utm_source=ig_web_copy_link"><img src="image/content1.jpg" class="contentImg"></a>
+                        </li>
+                        <li id="content02">
+                            <a href="https://www.instagram.com/p/Ce8G0vosXT9/?utm_source=ig_web_copy_link"><img src="image/content2.jpg" class="contentImg"></a>
+                        </li>
+                        <li id="content03">
+                            <a href="#"><img src="image/content3.jpg" class="contentImg"></a>
+                        </li>
+                        <li id="content04">
+                            <a href="#"><img src="image/content4.jpg" class="contentImg"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="contentImg2">
+                    <ul>
+                        <li id="content05">
+                            <a href="#"><img src="image/content5.jpg" class="contentImg"></a>
+                        </li>
+                        <li id="content06">
+                            <a href="#"><img src="image/content6.jpg" class="contentImg"></a>
+                        </li>
+                        <li id="content07">
+                            <a href="#"><img src="image/content7.jpg" class="contentImg"></a>
+                        </li>
+                        <li id="content08">
+                            <a href="#"><img src="image/content8.jpg" class="contentImg"></a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+        <footer>
             <div id="footerBox">
-            	<div id="bottomLogoBox"><a href="travel.html"><img src="image/logoWhite.png" id="logoImg"></a></div>
-            	 <div id="bottomMenuBox">
-					<ul id="bottomMenuItem">
-						<li><a href="#">회사소개</a></li>
-						<li><a href="#">이용약관</a></li>
-						<li id="private"><a href="#">개인정보 처리방침</a></li>
-						<li><a href="#">전자금융거래약관</a></li>
-						<li><a href="#">보안센터</a></li>
-						<li><a href="#">고객센터</a></li>
-					</ul>
-					<div id="bottomMenuBox2">
-					<ul id="bottomMenuItem2">
-						<li>회사명.(주)떠나요행</li>
-						<li>대표. 강주원 김유나 최유리 최재웅 한예원</li>
-						<li>사업자등록번호. 2022-06-27</li>
-						<li>F. 031-1234-5678</li>
-					</ul>
-					</div>
-					<div id="bottomMenuBox3">
-					<ul id="bottomMenuItem3">
-						<li>© 2022 Seoul Tourism Organization. All rights reserved</li>
-					</ul>
-					</div>
-					<div id="moveToTopBox"><img src="image/moveToTop.png" id="moveToTop"></div>
-				</div> <!-- bottomMenuBox 끝 -->
-            	</div>
-            </footer>
-           </div>
-	</body>
+                <div id="bottomLogoBox">
+                    <a href="travel.html"><img src="image/logoWhite.png" id="logoImg"></a>
+                </div>
+                <div id="bottomMenuBox">
+                    <ul id="bottomMenuItem">
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li id="private"><a href="#">개인정보 처리방침</a></li>
+                        <li><a href="#">전자금융거래약관</a></li>
+                        <li><a href="#">보안센터</a></li>
+                        <li><a href="#">고객센터</a></li>
+                    </ul>
+                    <div id="bottomMenuBox2">
+                        <ul id="bottomMenuItem2">
+                            <li>회사명.(주)떠나요행</li>
+                            <li>대표. 강주원 김유나 최유리 최재웅 한예원</li>
+                            <li>사업자등록번호. 2022-06-27</li>
+                            <li>F. 031-1234-5678</li>
+                        </ul>
+                    </div>
+                    <div id="bottomMenuBox3">
+                        <ul id="bottomMenuItem3">
+                            <li>© 2022 Seoul Tourism Organization. All rights reserved</li>
+                        </ul>
+                    </div>
+                    <div id="moveToTopBox"><img src="image/moveToTop.png" id="moveToTop"></div>
+                </div>
+                <!-- bottomMenuBox 끝 -->
+            </div>
+        </footer>
+    </div>
+</body>
+
 </html>
