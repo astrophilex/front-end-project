@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* mapBox.css */
+
+#map{
+	background-color:#eeeeee;
+	height:400px;
+	margin:0 auto;
+}
+
+table{
+ margin:0 auto; width:400px;
+}
