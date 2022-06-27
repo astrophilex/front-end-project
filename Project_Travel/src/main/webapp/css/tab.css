@@ -20,11 +20,11 @@
 	height:30px;
 	line-height:30px;
 	overflow:hidden;
-	margin-top:0px;
+	margin-top:80px;
 }
 
 
-#tabMenu img:hover { cursor:pointer;}
+#tabMenu img:hover { cursor:pointer; transform:scale(1.2);}
 
 .selectedItem img {margin-top:-10px;}
 
@@ -33,10 +33,9 @@
 
 #tabContent {
 	width:100%;
-	height:550px;
+	height:800px;
 	margin-top:20px;
-	border-top:solid 1px #cccccc;
-	border-bottom:solid 1px #cccccc;
+	border-top:solid 2px #87CEEB;
 }
 
 /* content의 모든 div 숨김 */
@@ -44,7 +43,8 @@
 #tabContent div {
 	display:none;
 	padding:0;
-	margin-top:20px;
+	margin-top:150px;
+	border-bottom:solid 2px #87CEEB;
 }
 	
 
