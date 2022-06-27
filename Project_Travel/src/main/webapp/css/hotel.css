@@ -417,7 +417,16 @@ button:disabled {
 }
 
 #bottomLogoBox1 {
-    padding-top: 70px;
+    padding-top: 50px;
     position: relative;
     left: 100px;
+}
+
+#footerBox1 {
+    margin-top: 0px;
+    background-color: #292C31;
+    height: 200px;
+    line-height: 10px;
+    /* 줄간격 - 수직으로 가운데 정렬 효과 */
+    position: relative;
 }
