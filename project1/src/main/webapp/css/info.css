@@ -15,6 +15,20 @@
 	
 }
 
+#infoviewBox span{
+  font-family: 'Gamja Flower', cursive;
+  font-family: 'Hi Melody', cursive;
+  padding: 0px 20px;
+  text-align: center;
+  position: absolute;
+  top: 0%;
+  left: 39%;
+  color:white;
+  font-size:70px;
+  	text-shadow: -1px -1px 0px 	skyblue,
+    3px 3px 0px 	skyblue,
+    6px 6px 0px 	skyblue;
+}
 
 
 #slogun{margin-left:100px; top:50px;		
