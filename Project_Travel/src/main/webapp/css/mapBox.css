@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* mapBox.css */
+
+#mapBox img{
+	position: absolute;
+	right:400px;
+	top:200px;
+}
+
+#mapmenu {
+	background-color:#095A77;
+	display:none;	/* 안 보임. 차지하고 있는 영역도 없음 */
+	position: absolute;
+	left:600px;
+	top:360px;
+	height:400px;
+	width:300px;
+	border-radius: 40px 80px / 80px 40px;
+	 } 
+
+#mapmenu li {
+	text-align:center;
+	line-height:100px;
+}
+
+#mapmenu li a{
+	color:white;
+	text-decoration: none;
+}
+
+#map{
+	display:inline-block;
+	background-color:#eeeeee;
+	width:1920px;
+	height:860px;}
+
+#closeButton {
+	visibility:hidden;
+	position: absolute;
+	left:860px;
+	top:330px;
+	 }
+

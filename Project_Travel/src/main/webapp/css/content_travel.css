@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+#contentImg{
+	background-color:#eeeeee;
+	height:600px;
+	width:1920px;
+}
+
+#contentImg2{
+	background-color:#eeeeee;
+	height:300px;
+	width:1920px;
+
+}
+
+
+.contentImg{
+	width: 280px;
+	height: 280px;
+	overflow: hidden;
+}
+
+#contentImg ul{
+	text-align:center;
+}
+
+#contentImg ul li{
+	display:inline-block;
+	position:relative;
+	top:100px;
+	overflow: hidden;
+}
+
+#contentImg2 ul{
+	text-align:center;
+}
+
+#contentImg2 ul li{
+	display:inline-block;
+	position:relative;
+	bottom:100px;
+	overflow: hidden;
+}
+
+#contentText li {
+	font-size:40px;
+}
+
+#contentText{
+	position:relative;
+	bottom:60px;
+}
+
+#content01 img{
+	transition: all 0.2s linear;
+}
+
+#content01:hover img{
+	transform: scale(1.4);
+}
+
+#content02 img{
+	transition: all 0.2s linear;
+}
+
+#content02:hover img{
+	transform: scale(1.4);
+}
+
+#content03 img{
+	transition: all 0.2s linear;
+}
+
+#content03:hover img{
+	transform: scale(1.4);
+}
+
+#content04 img{
+	transition: all 0.2s linear;
+}
+
+#content04:hover img{
+	transform: scale(1.4);
+}
+
+#content05 img{
+	transition: all 0.2s linear;
+}
+
+#content05:hover img{
+	transform: scale(1.4);
+}
+
+#content06 img{
+	transition: all 0.2s linear;
+}
+
+#content06:hover img{
+	transform: scale(1.4);
+}
+
+#content07 img{
+	transition: all 0.2s linear;
+}
+
+#content07:hover img{
+	transform: scale(1.4);
+}
+
+#content08 img{
+	transition: all 0.2s linear;
+}
+
+#content08:hover img{
+	transform: scale(1.4);
+}
+
+#instalogo{
+	position:relative;
+	bottom:0px;
+	right:10px;
+}
+
+#content01:hover{filter: brightness(70%);}
+#content02:hover{filter: brightness(70%);}
+#content03:hover{filter: brightness(70%);}
+#content04:hover{filter: brightness(70%);}
+#content05:hover{filter: brightness(70%);}
+#content06:hover{filter: brightness(70%);}
+#content07:hover{filter: brightness(70%);}
+#content08:hover{filter: brightness(70%);}
