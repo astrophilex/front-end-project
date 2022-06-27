@@ -15,6 +15,12 @@ img {
     height: 100%;
 }
 
+#wrap1 {
+    /*width:1920px;*/
+    background-color: #ffffff;
+    position: relative;
+}
+
 
 /*.heady {
     background-color: brown;
@@ -361,4 +367,57 @@ button:disabled {
 
 #moveToTopBox1 img {
     bottom: 100px;
+}
+
+#mainMenuBox1 {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    background-color: #ffffff;
+    /* white*/
+    z-index: 20;
+    /* 스크롤 시 위 오도록 */
+    text-align: center;
+    border-bottom: solid #E3E3E3 1px;
+}
+
+#mainMenuBox1 ul {
+    margin: 0;
+}
+
+#mainMenuBox1 li {
+    display: inline-block;
+    padding-top: 8px;
+    text-align: center;
+    width: 200px;
+    height: 33.1px;
+    line-height: 30px;
+}
+
+#mainMenuBox1 ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+#mainMenuBox1 ul li:hover {
+    border-bottom: solid #095A77 4px;
+}
+
+#menuItem {
+    padding-left: -50px;
+}
+
+#logoBox1 {
+    margin-left: 10px;
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 100px;
+}
+
+#bottomLogoBox1 {
+    padding-top: 70px;
+    position: relative;
+    left: 100px;
 }
